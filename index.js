@@ -32,7 +32,7 @@ function viewCart() {
 
 function total() {
  while (var i = 0; i<cart.length; i++){
-   
+   let totalCost = 
  }
 }
 
