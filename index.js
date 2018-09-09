@@ -58,9 +58,9 @@ function placeOrder(cardNumber) {
       while (i < cart.length) {
       totalCost += getCart()[i].itemPrice;
       i++;}
-    console.log(`Your total cost is $${totalCost}, which will be charged to the card ${cardNumber}.`);
-     cart.length=0;
-     return cart;
+    return(`Your total cost is $${totalCost}, which will be charged to the card ${cardNumber}.`);
+    
     }
-   
+    cart.length=0;
+     return cart;
 }
