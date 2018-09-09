@@ -43,7 +43,7 @@ function total() {
 function removeFromCart(item) {
   for (var i = 0; i<cart.length; i++){
  if (item===getCart()[i].itemName){
-   getcart().itemName.splice(i,1);
+   itemName.splice(i,1);
    return cart;
  } 
   }
