@@ -31,9 +31,10 @@ function viewCart() {
 }
 
 function total() {
- while (var i = 0; i<cart.length; i++){
-   let totalCost = 
+ for (var i = 0; i<cart.length; i++){
+  totalCost +=getCart()[i].itemPrice;
  }
+ return totalCost;
 }
 
 function removeFromCart(item) {
