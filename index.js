@@ -60,6 +60,7 @@ function placeOrder(cardNumber) {
       i++;}
     console.log(`Your total cost is $${totalCost}, which will be charged to the card ${cardNumber}.`);
     cart.splice(0,cart.length);
+    return cart;
     }
     
 }
