@@ -62,5 +62,5 @@ function placeOrder(cardNumber) {
     
     }
     cart =[];
-    return cart;
+    
 }
