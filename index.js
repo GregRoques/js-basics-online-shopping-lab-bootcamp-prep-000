@@ -41,14 +41,12 @@ function total() {
 }
 
 function removeFromCart(item) {
-  var i = 0;
+  for (var i = 0; i<cart.length; i++){
  if (item===getCart()[i].itemName){
    getcart().itemName.splice(i,1);
    return cart;
  } 
- 
- 
-  getCart()[i].itemName
+  }
 }
 
 function placeOrder(cardNumber) {
