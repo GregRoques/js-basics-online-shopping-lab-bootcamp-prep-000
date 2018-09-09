@@ -59,8 +59,7 @@ function placeOrder(cardNumber) {
       totalCost += getCart()[i].itemPrice;
       i++;}
    return(`Your total cost is $${totalCost}, which will be charged to the card ${cardNumber}.`);
-    
     }
-    cart =[];
-    
+    return placeOrder;
 }
+cart =[];
