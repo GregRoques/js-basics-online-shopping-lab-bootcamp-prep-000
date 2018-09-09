@@ -50,7 +50,8 @@ function removeFromCart(item) {
  return (`That item is not in your cart.`);
 }
 function placeOrder(cardNumber) {
-  if(){
+  var card =[cardNumber]
+  if(card.length===0){
     return("Sorry, we don't have a credit card on file for you.");
   }
 }
